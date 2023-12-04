@@ -1,5 +1,42 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-gofrs-flock (0.8.1-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.8.1
+  * Drop test dependency from -dev package
+  * Update Standards-Version to 4.6.0 (no changes)
+  * Add Multi-Arch hint
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 25 Mar 2022 23:35:51 +0800
+
+golang-github-gofrs-flock (0.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Arnaud Rebillout ]
+  * Update watch file
+  * Add gitlab-ci.yml
+  * Section = golang
+  * Update homepage
+  * Bump debhelper compat
+  * New upstream version 0.8.0
+  * Update d/copyright
+
+ -- Arnaud Rebillout <elboulangero@gmail.com>  Fri, 08 Jan 2021 15:29:14 +0700
+
+golang-github-gofrs-flock (0.7.1-2) unstable; urgency=medium
+
+  * docs: install README.
+  * Standards-Version: 4.4.1.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 25 Oct 2019 01:42:30 +1100
+
+golang-github-gofrs-flock (0.7.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #940020).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 11 Sep 2019 19:38:30 +1000
